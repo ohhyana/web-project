@@ -1,21 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <title>Figma Landing Page</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="style.css/">
+    <link href="https://fonts.cdnfonts.com/css/graphik" rel="stylesheet">
+  </head>
+  <body>
     <header>
-        <h1>Team Template</h1>
+      <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="#product">Product</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
     </header>
     <main>
-
+      <section id="hero">
+        <h1>Design, prototype, and collaborate with Figma</h1>
+        <p>Figma is a powerful design tool that lets you create, collaborate, and iterate on designs in real time. With Figma, you can easily design and prototype anything from user interfaces to entire websites.</p>
+        <a href="#" class="button">Get started for free</a>
+      </section>
+      <section id="features">
+        <h2>Features</h2>
+        <ul>
+          <li>Real-time collaboration</li>
+          <li>Design systems</li>
+          <li>Prototyping</li>
+          <li>Version history</li>
+          <li>Plugins</li>
+        </ul>
+      </section>
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <ul>
+          <li>Free plan with limited features</li>
+          <li>Professional plan for $15/user/month</li>
+          <li>Organization plan for $45/user/month</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
     </main>
     <footer>
-
+      <p>&copy; 2023 Figma Inc. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
