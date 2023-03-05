@@ -44,6 +44,7 @@
           <h3 class="properties__title">Fastest way to take action</h3>
           <p class="properties__description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
         </div>
+      </section>
         <section class="fastest-way">
           <h2 class="fastest-way">Fastest way to organize</h2>
           <p class="fastest-way">Most calendars are designed for teams.</p>
@@ -163,14 +164,14 @@
               <figcaption class="info__email">willie.jennings@example.com</figcaption>
             </figure>
           </div>
-          <form action="" class="contact">
+          <form action="https://formspree.io/f/mdovzbpd" method="get" class="contact__form">
             <label for="name" class="contact__name">Name</label>
-          <input type="text" name="name" required placeholder="Your name">
+          <input type="text" id="name" name="name" required placeholder="Your name">
           <label for="email" class="contact__email">Email</label>
-          <input type="email" name="email" required placeholder="Your email">
+          <input type="email" id="email" name="email" required placeholder="Your email">
           <label for="message" class="contact__message">Message</label>
-          <textarea id="message" name="message" required placeholder="Your message"></textarea>
-          <button type="submit" class="contact__button">Send</button>
+          <textarea id="message" id="message" name="message" required placeholder="Your message"></textarea>
+          <input type="submit" value="Send" class="contact__button">
           </form>
         </section>
     </main>
