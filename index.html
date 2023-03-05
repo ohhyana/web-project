@@ -4,7 +4,7 @@
     <title>Figma Landing Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
   </head>
   <body>
     <header class="header">
@@ -128,7 +128,7 @@
               <h3 class="card-business__title">BUSINESS</h3>
               <p class="card-business__slogan">Organize across all apps by hand</p>
               <div class="card-business__body">
-                <h4 class="card-business__body title">0$ Per Month</h4>
+                <h4 class="card-business__body title">99$ Per Month</h4>
                 <ul class="card-business__items">
                   <li class="card-business__price">Pricing Features</li>
                   <li class="card-business__price">Pricing Features</li>
@@ -141,39 +141,38 @@
             </div>
           </div>
         </section>
-
-      <section id="contact">
-        <div class="container">
-        <h1>Contact Us</h1>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <form>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Your email">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Your message"></textarea>
-          <button type="submit">Send</button>
-        </form>
-        
-        <img src="img/map.jpg" alt="map">
-
-        <div class="container">
-        <figure>
-          <img src="img/location.jpg"
-               alt="location">
-          <figcaption>6386 Spring St undefined Anchorage, Georgia 12473 United States</figcaption>
-          <figure>
-            <img src="img/phone.jpg"
-                 alt="phone">
-            <figcaption>(843) 555-0130</figcaption>
-            <figure>
-              <img src="img/email.jpg"
-                   alt="email">
-              <figcaption>willie.jennings@example.com</figcaption>
-            </div>
-      </div>
-      </section>
+        <section class="contact">
+          <h2 class="contact__title">Contact Us</h2>
+          <p class="contact__slogan">Most calendars are designed for teams.</p>
+          <div class="contact__social-icons icons">
+            <img src="img/twitter.png" alt="Twitter Logo" class="icons__twitter">
+            <img src="img/facebook.png" alt="Facebook Logo" class="icons__facebook">
+            <img src="img/linkedin.png" alt="Linkedin Logo" class="icons__linkedin">
+          </div>
+          <div class="contact__contact-info">
+            <figure class="contact__contact-info info">
+              <img src="img/location.jpg" alt="Location" class="info__location">
+              <figcaption class="info__location">6386 Spring St undefined Anchorage, Georgia 12473 United States</figcaption>
+            </figure>
+            <figure class="contact__contact-info info">
+              <img src="img/phone.jpg" alt="Phone" class="info__phone">
+              <figcaption class="info__phone">(843) 555-0130</figcaption>
+            </figure>
+            <figure class="contact__contact-info info">
+              <img src="img/email.jpg" alt="Email" class="info__email">
+              <figcaption class="info__email">willie.jennings@example.com</figcaption>
+            </figure>
+          </div>
+          <form action="" class="contact">
+            <label for="name" class="contact__name">Name</label>
+          <input type="text" name="name" required placeholder="Your name">
+          <label for="email" class="contact__email">Email</label>
+          <input type="email" name="email" required placeholder="Your email">
+          <label for="message" class="contact__message">Message</label>
+          <textarea id="message" name="message" required placeholder="Your message"></textarea>
+          <button type="submit" class="contact__button">Send</button>
+          </form>
+        </section>
     </main>
     <footer>
       <div class="container">
