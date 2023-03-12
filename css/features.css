@@ -3,7 +3,7 @@
     font-weight: 400;
     font-size: 2.8rem;
     text-align: center;
-    top: 50%;
+    margin: auto;
 }
 
 .features__slogan {
@@ -11,7 +11,7 @@
     font-weight: 400;
     font-size: 1.2rem;
     text-align: center;
-    top: 50%;
+    margin: auto;
 }
 
 .features img {
@@ -19,7 +19,7 @@
     width: 90%;
 }
 
-.properties__item img {
+.properties img {
     height: 44.75px;
     margin: auto;
     width: 44.75px;
@@ -30,7 +30,7 @@
     font-weight: 800;
     font-size: 2.8rem;
     text-align: center;
-    top: 50%;
+    margin: auto;
 }
 
 .properties__description {
@@ -38,5 +38,5 @@
     font-weight: 400;
     font-size: 1.2rem;
     text-align: center;
-    top: 50%;
+    margin: auto;
 }
