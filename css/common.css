@@ -1,0 +1,25 @@
+@import url(../css/fonts/GraphikBold.otf);
+@import url(../css/fonts/GraphikRegular.otf);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: black;
+    --accent-color: white;
+    font-family: 'Graphik', sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
