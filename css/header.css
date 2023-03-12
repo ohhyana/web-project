@@ -1,3 +1,63 @@
 .header {
     background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header__logo {
+    width: 186px;
+    height: 58px;
+    padding: 0 10px;
+}
+
+.header__nav nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    color: var(--accent-color);
+    text-decoration: none;
+    float: right;
+    text-align: right;
+    padding: 0 10px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.header__title {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 2.8rem;
+    text-align: center;
+    top: 50%;
+}
+
+.header__slogan {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    top: 50%;
+}
+
+.header__button {
+    background-color: #2091F9;
+    border-radius: 35px;
+    color: var(--accent-color);
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 50%;
+    max-width: 200px;
 }

@@ -1,5 +1,4 @@
-@import url(../css/fonts/GraphikBold.otf);
-@import url(../css/fonts/GraphikRegular.otf);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +9,7 @@
 :root {
     --main-color: black;
     --accent-color: white;
-    font-family: 'Graphik', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
 
