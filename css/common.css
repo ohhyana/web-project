@@ -7,9 +7,11 @@
 }
 
 :root {
-    --main-color: black;
+    --main-color: #252B42;
+    --additional-color: #374754;
     --accent-color: white;
     font-family: 'Open Sans', sans-serif;
+    color: var(--main-color);
     scroll-behavior: smooth;
 }
 
