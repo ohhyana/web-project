@@ -1,0 +1,42 @@
+.features__title {
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 2.8rem;
+    text-align: center;
+    top: 50%;
+}
+
+.features__slogan {
+    color: var(--additional-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    top: 50%;
+}
+
+.features img {
+    margin: auto;
+    width: 90%;
+}
+
+.properties__item img {
+    height: 44.75px;
+    margin: auto;
+    width: 44.75px;
+}
+
+.properties__title {
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: 2.8rem;
+    text-align: center;
+    top: 50%;
+}
+
+.properties__description {
+    color: var(--additional-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    top: 50%;
+}
