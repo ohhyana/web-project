@@ -40,3 +40,44 @@
     text-align: center;
     margin: auto;
 }
+
+/*fastest section*/
+.fastest__title {
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 2.8rem;
+    text-align: center;
+    top: 50%;
+}
+
+.fastest__slogan {
+    color: var(--additional-color);
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    top: 50%;
+}
+
+.fastest__button {
+    background-color: #2091F9;
+    border-radius: 35px;
+    color: var(--accent-color);
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 100%;
+    max-width: 200px;
+}
+
+.fastest img {
+    margin: auto;
+    width: 378.95px;
+    height: 211.89px;
+}
