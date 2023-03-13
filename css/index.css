@@ -1,7 +1,6 @@
-@import "common.css";
-@import "contacts.css";
-@import "controls.css";
-@import "features.css";
-@import "header.css";
-@import "products.css";
-@import "footer.css";
+@import url('common.css');
+@import url('contacts.css');
+@import url('features.css');
+@import url('footer.css');
+@import url('header.css');
+@import url('products.css');
